@@ -1,0 +1,17 @@
+{
+  "name": "typescript-pro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "@total-typescript/helpers": "^0.0.1",
+    "@total-typescript/ts-reset": "^0.6.1"
+  }
+}
